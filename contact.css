@@ -1,0 +1,118 @@
+.contact-section {
+  padding: 60px 40px;
+  background: #f9f9f9;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-info h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #0f2a34;
+}
+
+.info-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.info-item i {
+  font-size: 24px;
+  color: #158eff;
+}
+
+.info-item p {
+  margin: 0;
+  color: #555;
+  font-weight: 500;
+}
+
+.info-item strong {
+  display: block;
+  color: #0f2a34;
+  font-weight: 700;
+}
+
+.contact-form {
+  flex: 2;
+  min-width: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adds spacing between stacked inputs (mobile or wrap) */
+  position: relative;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 15px 0px 15px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-group i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  pointer-events: none;
+}
+
+.form-group.full {
+  width: 100%;
+}
+
+button[type="submit"] {
+  background: #158eff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #0f7ae5;
+}

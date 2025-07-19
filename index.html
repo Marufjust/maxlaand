@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaxLand Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <div class="logo">
+          <img src="image/logo_2.png" alt="Logo" />
+
+        </div>
+        <ul class="nav-links">
+          <li class="active ">Home </i></li>
+          <li class="same"><a href="about-us.html">About Us</a></li>
+          <li class="dropdown same">
+            Property <i class="fas fa-angle-down"></i>
+            <ul class="dropdown-menu">
+              <li>Property Grid View</li>
+              <li>Property List View</li>
+              <li>Property Left Sidebar</li>
+              <li>Property Right Sidebar</li>
+              <li>Property Details</li>
+            </ul>
+          </li>
+          <li class="dropdown same">Pages <i class="fas fa-angle-down"></i>
+            <ul class="dropdown-menu">
+              <li>Agencies</li>
+              <li>Agencies Details</li>
+              <li>Blog Details</li>
+              <li>Agent</li>
+              <li>Agent Details</li>
+            </ul>
+          </li>
+
+           <li class="same"><a href="contact.html">Contact</a></li>
+          <li class="same">Blog</li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <div class="phone">
+          <i class="fas fa-phone"></i> 01785-214488
+        </div>
+        <button class="profile-btn">
+          <i class="fas fa-user"></i> Profile
+        </button>
+        <div class="menu-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section start -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Find your <span class="highlight">perfect home</span> in the
+            optimal setting.</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit tincidunt
+            mauris at tellus pharetra nullam ac justo id sapien volutpat gravida
+            sed sed ligula.</p>
+          <a href="#" class="cta-btn">Start For Free <i
+              class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-image">
+          <img src="image/banner_2_bg.jpg" alt="Modern House">
+        </div>
+      </div>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <div class="search-header">
+          <div class="tabs">
+            <span class="tab active">BUY</span>
+            <span class="tab">SELL</span>
+            <span class="tab">RENT</span>
+          </div>
+          <div class="dots-menu">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="search-content">
+          <div class="search-fields">
+            <!-- Location Dropdown -->
+            <select>
+              <option disabled selected>Select Location</option>
+              <option value="bangladesh">Bangladesh</option>
+              <option value="germany">Germany</option>
+              <option value="japan">Japan</option>
+            </select>
+
+            <!-- Type Dropdown -->
+            <select>
+              <option disabled selected>Select Type</option>
+              <option value="office">Office</option>
+              <option value="factory">Factory</option>
+            </select>
+
+            <!-- Price Dropdown -->
+            <select>
+              <option disabled selected>Select Price</option>
+              <option>$100 - $200</option>
+              <option>$200 - $300</option>
+              <option>$300 - $400</option>
+              <option>$400 - $500</option>
+            </select>
+            <input type="text" placeholder="Enter Keyword...">
+            <button class="search-btn">Search</button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- hero section end -->
+
+    <!-- Amenities Section Start -->
+    <section class="amenities-section">
+      <h2>Discover your ideal home based on amenities</h2>
+      <div class="amenities-grid">
+        <!-- First row (6 items, no margin) -->
+        <div class="amenities-row">
+          <div class="amenity"><i class="fas fa-tv"></i> Smart TV</div>
+          <div class="amenity"><i class="fas fa-swimming-pool"></i> Swimming
+            Pool</div>
+          <div class="amenity"><i class="fas fa-building"></i> Elevator</div>
+          <div class="amenity"><i class="fas fa-draw-polygon"></i> Walk In
+            Closets</div>
+          <div class="amenity"><i class="fas fa-solar-panel"></i> Solar
+            Panel</div>
+          <div class="amenity"><i class="fas fa-video"></i> CC Camera</div>
+        </div>
+
+        <!-- Second row (margin-left: 200px) -->
+        <div class="amenities-row second-row">
+          <div class="amenity"><i class="fas fa-fan"></i> Air Conditioner</div>
+          <div class="amenity"><i class="fas fa-fire"></i> Fireplace</div>
+          <div class="amenity"><i class="fas fa-warehouse"></i> Garage</div>
+          <div class="amenity"><i class="fas fa-seedling"></i> Garden</div>
+          <div class="amenity"><i class="fas fa-hot-tub"></i> Jacuzzi</div>
+        </div>
+      </div>
+
+      <div class="amenity-btn">
+        <a href="#" class="cta-btn">Browse Properties <i
+            class="fas fa-arrow-right"></i></a>
+      </div>
+    </section>
+    <!-- Amenities Section End -->
+
+    <!-- featured listing starts  -->
+    <section class="featured-listings">
+      <h2>Featured Listings</h2>
+      <div class="listing-grid">
+
+        <!-- Card 1 -->
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="image/property_7.jpg" alt="House 1">
+            <span class="badge rent">For Rent</span>
+            <span class="badge featured">Featured</span>
+            <span class="price">$12,000 / Monthly</span>
+            <div class="listing-actions">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-share-alt"></i>
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+          <h3>Hermosa Casa al Norte</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 28B Highgate Road, London</p>
+          <div class="listing-info">
+            <span><i class="fas fa-bed"></i> 8 Beds</span>
+            <span><i class="fas fa-bath"></i> 6 Baths</span>
+            <span><i class="fas fa-expand"></i> 2400 Sq Ft</span>
+          </div>
+          <div class="listing-footer">
+            <a href="details.html">More Details <i
+                class="fas fa-arrow-right"></i></a>
+            <div class="rating">
+              <span class="stars">★★★★★</span>
+              <span>4.5</span>
+            </div>
+          </div>
+        </div>
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="image/property_8.jpg" alt="House 1">
+            <span class="badge rent">For Rent</span>
+            <span class="badge featured">Featured</span>
+            <span class="price">$12,000 / Monthly</span>
+            <div class="listing-actions">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-share-alt"></i>
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+          <h3>Hermosa Casa al Norte</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 28B Highgate Road, London</p>
+          <div class="listing-info">
+            <span><i class="fas fa-bed"></i> 8 Beds</span>
+            <span><i class="fas fa-bath"></i> 6 Baths</span>
+            <span><i class="fas fa-expand"></i> 2400 Sq Ft</span>
+          </div>
+          <div class="listing-footer">
+            <a href="details.html">More Details <i
+                class="fas fa-arrow-right"></i></a>
+            <div class="rating">
+              <span class="stars">★★★★★</span>
+              <span>4.5</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="image/property_9.jpg" alt="House 2">
+            <span class="badge sale">For Sale</span>
+            <span class="price">$24,000 / Monthly</span>
+            <div class="listing-actions">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-share-alt"></i>
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+          <h3>Stunning mansion in Reno</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 28B Highgate Road, London</p>
+          <div class="listing-info">
+            <span><i class="fas fa-bed"></i> 8 Beds</span>
+            <span><i class="fas fa-bath"></i> 6 Baths</span>
+            <span><i class="fas fa-expand"></i> 2400 Sq Ft</span>
+          </div>
+          <div class="listing-footer">
+            <a href="details.html">More Details <i
+                class="fas fa-arrow-right"></i></a>
+            <div class="rating">
+              <span class="stars">★★★★★</span>
+              <span>4.5</span>
+            </div>
+          </div>
+        </div>
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="image/property_10.jpg" alt="House 2">
+            <span class="badge sale">For Sale</span>
+            <span class="price">$24,000 / Monthly</span>
+            <div class="listing-actions">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-share-alt"></i>
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+          <h3>Stunning mansion in Reno</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 28B Highgate Road, London</p>
+          <div class="listing-info">
+            <span><i class="fas fa-bed"></i> 8 Beds</span>
+            <span><i class="fas fa-bath"></i> 6 Baths</span>
+            <span><i class="fas fa-expand"></i> 2400 Sq Ft</span>
+          </div>
+          <div class="listing-footer">
+            <a href="details.html">More Details <i
+                class="fas fa-arrow-right"></i></a>
+            <div class="rating">
+              <span class="stars">★★★★★</span>
+              <span>4.5</span>
+            </div>
+          </div>
+        </div>
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="image/property_11.jpg" alt="House 2">
+            <span class="badge sale">For Sale</span>
+            <span class="price">$24,000 / Monthly</span>
+            <div class="listing-actions">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-share-alt"></i>
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+          <h3>Stunning mansion in Reno</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 28B Highgate Road, London</p>
+          <div class="listing-info">
+            <span><i class="fas fa-bed"></i> 8 Beds</span>
+            <span><i class="fas fa-bath"></i> 6 Baths</span>
+            <span><i class="fas fa-expand"></i> 2400 Sq Ft</span>
+          </div>
+          <div class="listing-footer">
+            <a href="details.html">More Details <i
+                class="fas fa-arrow-right"></i></a>
+            <div class="rating">
+              <span class="stars">★★★★★</span>
+              <span>4.5</span>
+            </div>
+          </div>
+        </div>
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="image/property_12.jpg" alt="House 2">
+            <span class="badge sale">For Sale</span>
+            <span class="price">$24,000 / Monthly</span>
+            <div class="listing-actions">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-share-alt"></i>
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+          <h3>Stunning mansion in Reno</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 28B Highgate Road, London</p>
+          <div class="listing-info">
+            <span><i class="fas fa-bed"></i> 8 Beds</span>
+            <span><i class="fas fa-bath"></i> 6 Baths</span>
+            <span><i class="fas fa-expand"></i> 2400 Sq Ft</span>
+          </div>
+          <div class="listing-footer">
+            <a href="details.html">More Details <i
+                class="fas fa-arrow-right"></i></a>
+            <div class="rating">
+              <span class="stars">★★★★★</span>
+              <span>4.5</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Make an Enquiry -->
+    <section class="enquiry-section">
+      <div class="content">
+        <h1>Discover a new way<br>of living</h1>
+        <div class="features">
+          <div class="feature">
+            <span class="number">01</span>
+            <div>
+              <h4>Suitable For Agents<br>And Agencies</h4>
+              <p>Through a combination of lectures, will gain a solid
+                foundation.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <span class="number">02</span>
+            <div>
+              <h4>Design Custom Leads<br>Capture Forms</h4>
+              <p>Through a combination of lectures, will gain a solid
+                foundation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-container">
+        <h2>Make an Enquiry</h2>
+        <form>
+          <input type="text" placeholder="Your Name">
+          <input type="tel" placeholder="Phone Number">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Write Message..."></textarea>
+          <button type="submit">Make An Enquiry</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Meet the Realty Professionals -->
+    <section class="team-section">
+      <h2>Meet the Realty Professionals</h2>
+      <div class="team-members">
+        <div class="team-card">
+          <img src="image/agent_5.jpg" alt="Team Member">
+          <div class="team-info">
+            <div>
+              <h4>Nathaneal Down</h4>
+              <p>Real Estate Broker</p>
+            </div>
+            <span class="chat-icon"><i class="fas fa-comment-dots"></i></span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <img src="image/agent_6.jpg" alt="Team Member">
+          <div class="team-info">
+            <div>
+              <h4>Hanson Deck</h4>
+              <p>Sales Executive</p>
+            </div>
+            <span class="chat-icon"><i class="fas fa-comment-dots"></i></span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <img src="image/agent_7.jpg" alt="Team Member">
+          <div class="team-info">
+            <div>
+              <h4>Dominic L. Ement</h4>
+              <p>Commercial Broker</p>
+            </div>
+            <span class="chat-icon"><i class="fas fa-comment-dots"></i></span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <img src="image/agent_8.jpg" alt="Team Member">
+          <div class="team-info">
+            <div>
+              <h4>Giles Posture</h4>
+              <p>Salesperson</p>
+            </div>
+            <span class="chat-icon"><i class="fas fa-comment-dots"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback From Satisfied Customers. -->
+
+    <!-- Swiper Container -->
+    <section class="team-section">
+      <h2>Feedback From Satisfied Customers</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg"
+              alt="User 1" class="profile-pic">
+            <div class="text-content">
+              <h4>Douglas Lyphe</h4>
+              <span>Operations Manager - Static Mania</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                magnam amet impedit ab odit.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg"
+              alt="User 2"
+              class="profile-pic">
+            <div class="text-content">
+              <h4>Jane Smith</h4>
+              <span>Marketing Head - Creative Studio</span>
+              <p>Amazing service! Truly satisfied with the work delivered. Would
+                highly recommend to others.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg"
+              alt="User 3" class="profile-pic">
+            <div class="text-content">
+              <h4>John Doe</h4>
+              <span>CTO - TechWave</span>
+              <p>Outstanding support and great value. This team always goes the
+                extra mile for their customers.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- Blog Section Start -->
+    <section class="blog-section">
+      <h2>Our Latest articles</h2>
+
+      <div class="blog-cards">
+        <!-- Card 1 -->
+        <div class="blog-card">
+          <img src="image/blog_2_img_1.png" alt="Blog Image 1">
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar-alt"></i> March 24, 2024</span>
+            <span><i class="fas fa-comments"></i> Comments</span>
+          </div>
+          <h3>The Best Delicious Coffee Shop In Bangkok China.</h3>
+          <a href="#">More Details <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="blog-card">
+          <img src="image/blog_2_img_2.png" alt="Blog Image 2">
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar-alt"></i> March 24, 2024</span>
+            <span><i class="fas fa-comments"></i> Comments</span>
+          </div>
+          <h3>Skills That You Can Learn In The Real Estate Market.</h3>
+          <a href="#">More Details <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="blog-card">
+          <img src="image/blog_2_img_3.png" alt="Blog Image 3">
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar-alt"></i> March 24, 2024</span>
+            <span><i class="fas fa-comments"></i> Comments</span>
+          </div>
+          <h3>How to Stage Your Home For a Quick Sale.</h3>
+          <a href="#">More Details <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Footer Start -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-column">
+          <img src="image/footer_logo_2.png" alt="MaxLand Logo"
+            class="footer-logo">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            quis orci sit amet odio maximus sagittis et eu odio.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#">Home One</a></li>
+            <li><a href="#">Properties Right</a></li>
+            <li><a href="#">Properties List</a></li>
+            <li><a href="#">Property Details</a></li>
+            <li><a href="#">Agents Listing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Important Link</h4>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Change Password</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Newsletter</h4>
+          <p>Subscribe our newsletter to get the latest news & updates.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Your Email...">
+            <button><i class="fas fa-arrow-up-right-from-square"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 MaxLand All Rights Reserved</p>
+      </div>
+
+      <!-- Back to Top Button -->
+      <button class="back-to-top" id="backToTopBtn">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+
+      // Sticky navbar on scroll
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    document.querySelector(".navbar").classList.add("fixed");
+  } else {
+    document.querySelector(".navbar").classList.remove("fixed");
+  }
+});
+
+
+      // Navbar Toggle Functionality
+  const tabs = document.querySelectorAll('.tab');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      // Remove active class from all tabs
+      tabs.forEach(t => t.classList.remove('active'));
+      // Add active class to clicked tab
+      tab.classList.add('active');
+    });
+  });
+
+// Initialize Swiper
+   const swiper = new Swiper('.swiper', {
+    loop: true,
+    speed: 2000,  // Slower transition (increase the number to slow it further)
+    autoplay: {
+        delay: 5000,  // Time before slide changes
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
+
+// Back to Top Button Functionality
+const backToTopBtn = document.getElementById('backToTopBtn');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 200) {
+    backToTopBtn.classList.add('show');
+  } else {
+    backToTopBtn.classList.remove('show');
+  }
+});
+
+backToTopBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+
+</script>
+
+  </body>
+</html>
